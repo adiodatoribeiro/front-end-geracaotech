@@ -23,7 +23,7 @@ const SearchInput = () => {
           value={searchTerm}
           onChange={handleInputChange}
           onKeyDown={(event) => event.key === 'Enter' ? handleSearch() : null}
-          className="pl-4 py-2 no-underline rounded-md focus:outline-none focus:ring ring-primary-2 focus:border-primary border"
+          className="w-[550px] py-2 no-underline rounded-md focus:outline-none focus:ring ring-primary-2 focus:border-primary border"
         />
         <button
           onClick={handleSearch}

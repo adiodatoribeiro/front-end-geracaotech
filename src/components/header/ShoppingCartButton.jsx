@@ -1,4 +1,5 @@
 const ShoppingCartButton = ({ notificationCount=0 }) => (
+  
   <div className="flex items-center justify-center px-3">
     <div className="relative">
       <img

@@ -1,4 +1,5 @@
 const Contact = () => {
+    
     return (
         <div className="contact mr-10">
             <h3 className="font-semibold mt-4" >Contato</h3>
@@ -8,7 +9,6 @@ const Contact = () => {
                 </p>
                 <p className="col_texto">(85) 3051-3411</p>
             </div>
-            
         </div>
     );
 }

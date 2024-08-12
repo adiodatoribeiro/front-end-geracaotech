@@ -1,48 +1,53 @@
 const ProductItens = [
+  
   {
     name: 'K-Swiss V9 - Masculino',
-    image: 'public/produc-image-5.jpeg',
+    image: 'public/tenis-desconto.png',
     price: 200,
-    priceDiscount: 149.9,
+    priceDiscount: 100,
   },
   {
     name: 'K-Swiss V8 - Masculino',
-    image: 'public/produc-image-5.jpeg',
+    image: 'public/tenis-desconto.png',
     price: 200,
+    priceDiscount: 100,
   },
   {
     name: 'K-Swiss V8 - Masculino',
-    image: 'public/produc-image-5.jpeg',
+    image: 'public/tenis-galeria.png',
     price: 200,
-    priceDiscount: 149.9,
+    priceDiscount: 100,
   },
   {
     name: 'K-Swiss V8 - Masculino',
-    image: 'public/produc-image-5.jpeg',
+    image: 'public/tenis-galeria.png',
     price: 200,
+    priceDiscount: 100,
   },
   {
     name: 'K-Swiss V8 - Masculino',
-    image: 'public/produc-image-5.jpeg',
+    image: 'public/tenis-galeria.png',
     price: 200,
-    priceDiscount: 149.9,
+    priceDiscount: 100,
   },
   {
     name: 'K-Swiss V8 - Masculino',
-    image: 'public/produc-image-5.jpeg',
+    image: 'public/tenis-galeria.png',
     price: 200,
+    priceDiscount: 100,
   },
   {
     name: 'K-Swiss V8 - Masculino',
-    image: 'public/produc-image-5.jpeg',
+    image: 'public/tenis-galeria.png',
     price: 200,
-    priceDiscount: 149.9,
+    priceDiscount: 100,
   },
   {
     name: 'K-Swiss V8 - Masculino',
-    image: 'public/produc-image-5.jpeg',
+    image: 'public/tenis-galeria.png',
     price: 200,
+    priceDiscount: 100,
   },
-];
+]
 
 export default ProductItens;

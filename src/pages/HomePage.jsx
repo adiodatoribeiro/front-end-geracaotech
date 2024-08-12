@@ -1,23 +1,26 @@
 import Layout from '../components/Layout';
 import Gallery from '../components/Gallery';
 import ProductListing from '../components/product-listing/ProductListing';
+import Section from '../components/Section';
+import Icons from '../components/Icons';
+import JordanOfert from '../components/JordanOfert';
+import { propTypeClassName } from '@material-tailwind/react/types/components/timeline';
 
 const HomePage = () => {
   return (
     <Layout>
       <Gallery
-        slides={[
-          '/public/home-slide-1.jpeg',
-          '/public/home-slide-2.jpeg',
-          '/public/home-slide-3.jpeg',
-          '/public/home-slide-4.jpeg',
-          '/public/home-slide-5.jpeg',
-          '/public/home-slide-6.jpeg',
-          '/public/home-slide-7.jpeg',
-          '/public/home-slide-8.jpeg',
+        slides ={[
+          '/public/tenis-logo.png',
+          '/public/tenis-logo.png',
+          '/public/tenis-logo.png',
+          '/public/tenis-logo.png',
         ]}
       />
+      <Section />
+      <Icons />
       <ProductListing/>
+      <JordanOfert/>
     </Layout>
   );
 };

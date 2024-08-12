@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <nav className="py-2">
       <ul className="flex items-center justify-start gap-7 font-bold underline-offset-8">
-        <li>
+        <li className='hover:text-primary'>
           <Link
             to="/home"
             className={
@@ -17,27 +17,27 @@ const NavBar = () => {
             Home
           </Link>
         </li>
-        <li>
+        <li className='hover:text-primary'>
           <Link
-            to="/product-listing"
+            to=""
             className={
-              pathname === '/product-listing' ? styleUnderline : ''
+              pathname === 'product-listing' ? styleUnderline : ''
             }
           >
             Produtos
           </Link>
         </li>
-        <li>
+        <li className='hover:text-primary'>
           <Link
-            to="/product-view"
+            to=""
             className={
-              pathname === '/product-view' ? styleUnderline : ''
+              pathname === '' ? styleUnderline : ''
             }
           >
             Categorias
           </Link>
         </li>
-        <li>
+        <li className='hover:text-primary'>
           <Link
             to="" 
           >

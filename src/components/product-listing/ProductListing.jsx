@@ -6,22 +6,13 @@ const ProductListing = () => {
   for (let i = 0; i < ProductItens.length; i++) {
     cards.push(<ProductCard props={ProductItens[i]} />);
   }
-  return <div className='flex flex-wrap gap-4 justify-center'> {cards} </div>;
+  return <div>
+          <div className='flex justify-between'>
+            <h1 className='text-2xl font-bold py-8'>Produtos em alta</h1>
+            <a href="#" className='text-primary hover:text-dark-gray py-8'>Ver todos ➝</a>
+          </div>
+          <div className='flex flex-wrap gap-4 justify-center'> {cards} </div>
+        </div>
 };
 
 export default ProductListing;
-
-// --- Refaroração de @rafaelcesar0 ---
-// const ProductListing = () => (
-//   <div className="flex flex-wrap gap-4">
-//     {ProductItens.map(({ name, image, price, priceDiscount }, index) => (
-//       <ProductCard
-//         key={index}
-//         name={name}
-//         image={image}
-//         price={price}
-//         priceDiscount={priceDiscount}
-//       />
-//     ))}
-//   </div>
-// );

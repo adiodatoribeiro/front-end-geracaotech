@@ -1,6 +1,7 @@
 import Logo from '../Logo'
 
 const Description = () => {
+    
     return (
     <>
     <Logo src='src\assets\logo-footer.svg'/>
@@ -12,6 +13,5 @@ const Description = () => {
     </>
     );
 }
-
 
 export default Description;

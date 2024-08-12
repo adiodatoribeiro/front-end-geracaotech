@@ -1,6 +1,5 @@
-
-
 const CardsFooter = () => {
+    
     return (
     
     <div className='flex gap-4'>
@@ -14,7 +13,6 @@ const CardsFooter = () => {
                 <a href="#">Trabalhe conosco</a>
                 <a href="#">Meus Pedidos</a>
             </div>
-            
         </div>
         <div className='flex flex-col ml-10'>
             <h3 className="font-semibold mt-4">Categoria</h3>
@@ -25,12 +23,10 @@ const CardsFooter = () => {
                 <a href="#">Headphones</a>
                 <a href="#">Tênis</a>
             </div>
-           
         </div>
     </div>
     
     );
 };
-
 
 export default CardsFooter;
