@@ -1,4 +1,3 @@
-
 # Project
 This is the README for the project.
 
@@ -6,7 +5,7 @@ This is the README for the project.
 This project is a test whose activity is to develop the front-end of a fictitious E-commerce to test web development skills and teamwork.
 
 ## 1.1 Technologies used
-[JavaScript](https://skillicons.dev/icons?i=js)
+![JavaScript](https://skillicons.dev/icons?i=js)
 [![Vite](https://skillicons.dev/icons?i=vite)](https://vitejs.dev/)
 [![React](https://skillicons.dev/icons?i=react)](https://react.dev/)
 [![TailWind](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com/)
